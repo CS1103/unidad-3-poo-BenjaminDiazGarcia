@@ -3,7 +3,7 @@
 #include "catch.hpp"
 #include "Simulador.h"
 
-TEST_CASE("Prueba del print_potencia"){
+SCENARIO("Prueba del print_potencia"){
     Particula P1 (4, 5);
     //Hacemos que P1 tenga x = 4, y = 5
     P1.set_x_y(4, 5);
